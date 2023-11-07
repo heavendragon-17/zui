@@ -1,0 +1,56 @@
+:root {
+  --pitch--black: #000;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--pitch--black);
+}
+    body {
+      margin: 0;
+    }
+
+.buddist {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    bottom: 100px;
+    color: #ffff00;
+    text-shadow: 0 0 7px #FFFF00, 0 0 12px #FFD700, 0 0 17px #FFD700, 0 0 23px #FFD700, 0 0 28px #FFD700;
+
+}
+
+.lotus {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  right: 65px;
+  color: #ff66b3df;
+  text-shadow: 2px 2px 10px #FF007F; /* Shadow effect (pink shadow) */
+}
+
+.hand {
+  display: flex;
+  position: absolute;
+  top: 150px;
+  left: 400px;
+  color: #ffffffdf;
+}
+.text1 {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 400px;
+  color: #ffff00;
+  text-shadow: 0 0 1px #FFFF00, 0 0 2px #FFD700, 0 0 3px #FFD700, 0 0 4px #FFD700;
+}
+.text2 {
+  display: flex;
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  color: #FFD700;
+}
